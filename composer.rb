@@ -96,7 +96,7 @@ after_bundle do
   yarn 'bootstrap@^4.3.1'
 end
 
-remove_dir 'app/assets'
+#remove_dir 'app/assets'
 jss = [ 'base.js' ]
 get_remote_dir(jss, 'app/javascript/js')
 images = [ 'favicon.ico' ]
